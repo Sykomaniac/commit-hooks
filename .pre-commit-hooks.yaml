@@ -1,0 +1,9 @@
+-   id: commit-msg-format
+    name: Commit Message Format
+    description: "Pre-receive hook to validate commit message structure"
+    entry: commit-msg-format
+    language: python
+    files: ''
+    stages: [push]
+    
+    minimum_pre_commit_version: 0.12.0
