@@ -1,6 +1,6 @@
 # Pre-receive commit hook to check commit message format
 
-A commit hook written using pre-commit to check that commit message(s) in a branch match a required format.
+An example of pre-receive and commit-msg commit hooks written using pre-commit to check that commit message(s) match a required format.
 
 ### Todo:
 * Allow users to set commit format regex

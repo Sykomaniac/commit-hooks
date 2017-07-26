@@ -4,12 +4,12 @@ from setuptools import setup
 
 setup(
     name='commit_hooks',
-    description='Mobility hooks',
-    url='https://gecgithub01.walmart.com/ASDAMobility/commit-hooks',
+    description='Personal hooks',
+    url='https://github.com/Sykomaniac/commit-hooks',
     version='0.1.0',
 
     author='Ashley Sykes',
-    author_email='ashley.sykes0@asda.co.uk',
+    author_email='ashleysykes01@gmail.com',
 
     classifiers=[
         'License :: OSI Approved :: MIT License',
@@ -26,6 +26,7 @@ setup(
     entry_points={
         'console_scripts': [
             'commit-msg-format = pre_commit_hooks.commit_message_format:main',
+            'commit-message = pre_commit_hooks.commit_message:main',
         ],
     },
 )
